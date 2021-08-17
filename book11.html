@@ -1,0 +1,116 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+      <div class = "container">
+          <div class="navbar">
+            <div class="logo">
+              <img src="images/logo.png" width="125px">
+            </div>
+        <nav>
+          <ul id ="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="store.html">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Account</a></li>
+          </ul>
+        </nav>
+      <a href ="cart.html"><img src ="images/cart.png" width="30px" height="30px"></a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+      </div>
+    </div>
+    <div class="small-container">
+      <div class="row">
+        <div class="col-2">
+          <img src ="images/book11.jpg" width="95%" >
+        </div>
+        <div class="col-2">
+          <p>Home/Book Details</p>
+          <h1>If She Fled</h1>
+          <h4>Rs.699</h4>
+          <input type="number" value="1">
+          <a href ="" class ="btn">Add To Cart</a>
+          <h3>Book Details</h3>
+          <p>"A masterpiece of thriller and mystery. Blake Pierce did a magnificent job developing characters with a psychological side so well described that we feel inside their minds, follow their fears and cheer for their success. Full of twists, this book will keep you awake until the turn of the last page."
+
+--Books and Movie Reviews, Roberto Mattos (re Once Gone)
+
+
+
+IF SHE FLED (A Kate Wise Mystery) is book #5 in a new psychological thriller series by bestselling author Blake Pierce, whose #1 bestseller Once Gone (Book #1) has received over 1,000 five star reviews.
+
+
+When another 50 year old woman is found dead in her home in a wealthy suburb-the second such victim in just two months-the FBI is stumped. They must turn to their most brilliant mind-retired FBI agent Kate Wise, 55-to come back to the line of duty and solve it.
+
+
+What do these two empty nesters have in common? Were they targeted?
+
+
+
+How long until this serial killer strikes again?
+
+
+
+And is Kate, though past her prime, still able to solve cases that no one else can?
+
+
+
+An action-packed thriller with heart-pounding suspense, IF SHE FLED is book #5 in a riveting new series that will leave you turning pages late into the night.</p>
+        </div>
+      </div>
+    </div>
+<div class ="footer">
+  <div class ="container">
+    <div class ="row">
+      <div class ="footer-col-1">
+      <h3>Thanks for Coming To Our Shop</h3>
+      <p>Do visit our another websites</p>
+      </div>
+      <div class="footer-col-2">
+        <img src ="images/logo.png">
+        <p>Our Purpose is to provide best quality education</p>
+      </div>
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>ProHarshit</li>
+          <li>Blog Post</li>
+          <li>Return Policy</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+      <div class="footer-col-4">
+        <h3>Follow Us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>Youtube</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2021 Mr.Book Seller</p>
+  </div>
+</div>
+<script>
+  var MenuItems = document.getElementById("MenuItems");
+  MenuItems.style.maxHeight = "0px";
+  function menutoggle(){
+    if (MenuItems.style.maxHeight == "0px")
+    {
+      MenuItems.style.maxHeight = "200px";
+    }
+    else{
+      MenuItems.style.maxHeight = "0px";
+    }
+  }
+</script>
+</body>
+</html>

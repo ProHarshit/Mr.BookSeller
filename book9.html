@@ -1,0 +1,98 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+      <div class = "container">
+          <div class="navbar">
+            <div class="logo">
+              <img src="images/logo.png" width="125px">
+            </div>
+        <nav>
+          <ul id ="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="store.html">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Account</a></li>
+          </ul>
+        </nav>
+      <a href ="cart.html"><img src ="images/cart.png" width="30px" height="30px"></a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+      </div>
+    </div>
+    <div class="small-container">
+      <div class="row">
+        <div class="col-2">
+          <img src ="images/book9.jpg" width="95%" >
+        </div>
+        <div class="col-2">
+          <p>Home/Book Details</p>
+          <h1>The Land Of Stories</h1>
+          <h4>Rs.499</h4>
+          <input type="number" value="1">
+          <a href ="" class ="btn">Add To Cart</a>
+          <h3>Book Details</h3>
+          <p>When the twins' grandmother gives them a treasured fairy-tale book, they have no idea they're about to enter a land beyond all imagining: the Land of Stories, where fairy tales are real.
+
+But as Alex and Conner soon discover, the stories they know so well haven't ended in this magical land - Goldilocks is now a wanted fugitive, Red Riding Hood has her own kingdom, and Queen Cinderella is about to become a mother!
+
+The twins know they must get back home somehow. But with the legendary Evil Queen hot on their trail, will they ever find the way?
+
+The Land of Stories: The Wishing Spell brings readers on a thrilling quest filled with magic spells, laugh-out-loud humour and page-turning adventure.</p>
+        </div>
+      </div>
+    </div>
+<div class ="footer">
+  <div class ="container">
+    <div class ="row">
+      <div class ="footer-col-1">
+      <h3>Thanks for Coming To Our Shop</h3>
+      <p>Do visit our another websites</p>
+      </div>
+      <div class="footer-col-2">
+        <img src ="images/logo.png">
+        <p>Our Purpose is to provide best quality education</p>
+      </div>
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>ProHarshit</li>
+          <li>Blog Post</li>
+          <li>Return Policy</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+      <div class="footer-col-4">
+        <h3>Follow Us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>Youtube</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2021 Mr.Book Seller</p>
+  </div>
+</div>
+<script>
+  var MenuItems = document.getElementById("MenuItems");
+  MenuItems.style.maxHeight = "0px";
+  function menutoggle(){
+    if (MenuItems.style.maxHeight == "0px")
+    {
+      MenuItems.style.maxHeight = "200px";
+    }
+    else{
+      MenuItems.style.maxHeight = "0px";
+    }
+  }
+</script>
+</body>
+</html>

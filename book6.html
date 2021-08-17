@@ -1,0 +1,100 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+      <div class = "container">
+          <div class="navbar">
+            <div class="logo">
+              <img src="images/logo.png" width="125px">
+            </div>
+        <nav>
+          <ul id ="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="store.html">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Account</a></li>
+          </ul>
+        </nav>
+       <a href ="cart.html"><img src ="images/cart.png" width="30px" height="30px"></a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+      </div>
+    </div>
+    <div class="small-container">
+      <div class="row">
+        <div class="col-2">
+          <img src ="images/book6.jpg" width="95%" >
+        </div>
+        <div class="col-2">
+          <p>Home/Book Details</p>
+          <h1>Imaginary Friend</h1>
+          <h4>Rs.599</h4>
+          <input type="number" value="1">
+          <a href ="" class ="btn">Add To Cart</a>
+          <h3>Book Details</h3>
+          <p>Christopher is seven years old. Christopher is the new kid in town. Christopher has an imaginary friend. The epic work of literary horror from the #1 bestselling author of THE PERKS OF BEING A WALLFLOWER.
+
+We can swallow our fear or let our fear swallow us.
+
+Single mother Kate Reese is on the run. Determined to improve life for her and her son, she flees an abusive relationship in the middle of the night with Christopher at her side. Together, they find themselves drawn to the tight-knit community of Mill Grove, Pennsylvania. It's as far off the beaten track as they can get. Just one highway in, one highway out.
+
+At first, it seems like the perfect place to finally settle down. Then Christopher vanishes. For six awful days, no one can find him. Until Christopher emerges from the woods at the edge of town, unharmed but not unchanged. He returns with a voice in his head only he can hear, with a mission only he can complete: Build a tree house in the woods by Christmas, or his mother and everyone in the town will never be the same again.
+
+Soon Kate and Christopher find themselves in the fight of their lives, caught in the middle of a war playing out between good and evil, with their small town as the battleground.</p>
+        </div>
+      </div>
+    </div>
+<div class ="footer">
+  <div class ="container">
+    <div class ="row">
+      <div class ="footer-col-1">
+      <h3>Thanks for Coming To Our Shop</h3>
+      <p>Do visit our another websites</p>
+      </div>
+      <div class="footer-col-2">
+        <img src ="images/logo.png">
+        <p>Our Purpose is to provide best quality education</p>
+      </div>
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>ProHarshit</li>
+          <li>Blog Post</li>
+          <li>Return Policy</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+      <div class="footer-col-4">
+        <h3>Follow Us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>Youtube</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2021 Mr.Book Seller</p>
+  </div>
+</div>
+<script>
+  var MenuItems = document.getElementById("MenuItems");
+  MenuItems.style.maxHeight = "0px";
+  function menutoggle(){
+    if (MenuItems.style.maxHeight == "0px")
+    {
+      MenuItems.style.maxHeight = "200px";
+    }
+    else{
+      MenuItems.style.maxHeight = "0px";
+    }
+  }
+</script>
+</body>
+</html>
